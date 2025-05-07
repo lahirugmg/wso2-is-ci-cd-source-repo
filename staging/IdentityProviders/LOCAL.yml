@@ -1,0 +1,1070 @@
+!!org.wso2.carbon.identity.application.common.model.IdentityProvider
+alias: null
+certificate: MIIDtTCCAp2gAwIBAgIUdYqOmjbFWs31cUW2cjkBlEUK3tQwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkNBMRQwEgYDVQQHDAtTYW50YSBDbGFyYTENMAsGA1UECgwEV1NPMjENMAsGA1UECwwEV1NPMjESMBAGA1UEAwwJbG9jYWxob3N0MB4XDTI1MDEwODA4MzIwN1oXDTI2MDEwODA4MzIwN1owYjELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkNBMRQwEgYDVQQHDAtTYW50YSBDbGFyYTENMAsGA1UECgwEV1NPMjENMAsGA1UECwwEV1NPMjESMBAGA1UEAwwJbG9jYWxob3N0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApKrcXnoAU82tf7lfrK7nXly0NXGuooK5976cApos9eKFd3I2ln7PEZEkeW5U+bsx/fSYBnSlf4rCD3xGI79H86dfJm6xewMeYkGW+gq/qyBJWR+qB4MSbh0LRci3swpVMfV4C+4jOJ0QmSjpr04toXz+yRO1YQIfZnO8ESlSby2gxnaimAkgjdv4pZJv4SK2YEQiOsUkYklRckMxVO3g/l4RIP83yBRLJaU5IiY/0YyKeR3XIM1QDv+0ZzI13MSPhb2TYzHevwgZ9cPnADMBT/RtRg9y5jscA+A/FdDcZ/QLsrWMYNqp9AlNBvKssrqZQ6PrfA+YngYu9rXIG3BuUwIDAQABo2MwYTAUBgNVHREEDTALgglsb2NhbGhvc3QwHQYDVR0OBBYEFBu0nyaEYqzQ/x6p1nLqRx7ZICAGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjALBgNVHQ8EBAMCBPAwDQYJKoZIhvcNAQELBQADggEBAGpcdC97a/SOF6QLLEiBpj9ybdsvtID25zoEhfiiGja0qN6gtDEL4wFCthtV+mzSNX3fnch/X57NbTIqXR/0VLAYVjKLfi855TD/IjY1SLvmdXy6W4aAB8YZ4LR60xfpaLAg99lFkAg8buQdNwzau09rlu7VvwC7bNWgFJQQfVByG4wgCSMRLL3px6yOubMgku5RGP8qsRRLJ88vLDIbldrVIpqLGUz1XfGSSMaqHTMhh1SQfE8uexEleOnTTwD6McrSxJ9JJnXF1iGCnm7OUD1I+9uuC2Qffd3tfVHh140+j7zEd3kD0QfdtsBFcS3yka9W6CC52XL5cTFKmA/esVg=
+claimConfig:
+  alwaysSendMappedLocalSubjectId: false
+  claimMappings: []
+  idpClaims: []
+  localClaimDialect: false
+  mappedLocalSubjectMandatory: false
+  roleClaimURI: null
+  spClaimDialects: []
+  userClaimURI: null
+defaultAuthenticatorConfig: null
+defaultProvisioningConnectorConfig: null
+displayName: null
+enable: true
+federatedAssociationConfig:
+  enabled: false
+  lookupAttributes: []
+federatedAuthenticatorConfigs:
+- definedByType: SYSTEM
+  displayName: null
+  enabled: false
+  name: oauth10a
+  properties:
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OAuth1AccessTokenUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oauth/access-token
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OAuth1RequestTokenUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oauth/request-token
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OAuth1AuthorizeUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oauth/authorize-url
+  tags: null
+- definedByType: SYSTEM
+  displayName: null
+  enabled: false
+  name: passivests
+  properties:
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: IdPEntityId
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: localhost
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: IdentityProviderUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/passivests
+  tags: null
+- definedByType: SYSTEM
+  displayName: null
+  enabled: false
+  name: openid
+  properties:
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OpenIdUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/openidserver
+  tags: null
+- definedByType: SYSTEM
+  displayName: null
+  enabled: false
+  name: samlsso
+  properties:
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: SSOUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/samlsso
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: SAMLMetadataSigningEnabled
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: "false"
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: LogoutReqUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/samlsso
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: ECPUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/samlecp
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: SAMLMetadataValidityPeriod
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: "60"
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: DestinationURI.1
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/samlsso
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: IdPEntityId
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: localhost
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: ArtifactResolveUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/samlartresolve
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: samlAuthnRequestsSigningEnabled
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: "false"
+  tags: null
+- definedByType: SYSTEM
+  displayName: null
+  enabled: false
+  name: wstrust
+  properties:
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: IDENTITY_PROVIDER_URL
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/services/wso2carbon-sts
+  tags: null
+- definedByType: SYSTEM
+  displayName: null
+  enabled: false
+  name: openidconnect
+  properties:
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OAuth2RevokeEPUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oauth2/revoke
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OIDCDiscoveryEPUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oauth2/oidcdiscovery
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OAuth2TokenEPUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oauth2/token
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OAuth2IntrospectEPUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oauth2/introspect
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OAuth2JWKSPage
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oauth2/jwks
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OIDCLogoutEPUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oidc/logout
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OAuth2ParEPUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oauth2/par
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OIDCWebFingerEPUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/.well-known/webfinger
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: IdPEntityId
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oauth2/token
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OAuth2UserInfoEPUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oauth2/userinfo
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OAuth2AuthzEPUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oauth2/authorize
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OIDCCheckSessionEPUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/oidc/checksession
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: OAuth2DCREPUrl
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/api/identity/oauth2/dcr/v1.1/register
+  tags: null
+- definedByType: SYSTEM
+  displayName: null
+  enabled: false
+  name: IDPProperties
+  properties:
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: CleanUpPeriod
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: "1440"
+  tags: null
+federationHub: false
+homeRealmId: localhost
+idPGroupConfig: []
+identityProviderDescription: null
+identityProviderName: LOCAL
+idpProperties:
+- displayName: HTTP Connection Timeout
+  name: adaptive_authentication.elastic.HTTPConnectionTimeout
+  value: "3000"
+- displayName: SMS OTP expiry time
+  name: SmsOTP.ExpiryTime
+  value: "300"
+- displayName: User self registration
+  name: SelfRegistration.Enable
+  value: "false"
+- displayName: Enable user email notification on update
+  name: UserClaimUpdate.Email.EnableNotification
+  value: "false"
+- displayName: Include lowercase characters in OTP
+  name: EmailVerification.OTP.UseLowercaseCharactersInOTP
+  value: "true"
+- displayName: Hostname verification
+  name: adaptive_authentication.analytics.hostnameVerfier
+  value: STRICT
+- displayName: HTTP Read Timeout
+  name: adaptive_authentication.analytics.HTTPReadTimeout
+  value: "3000"
+- displayName: Enable mobile number verification by privileged users
+  name: UserClaimUpdate.MobileNumber.EnableVerificationByPrivilegedUser
+  value: "false"
+- displayName: Enable forced security questions
+  name: Recovery.Question.Password.Forced.Enable
+  value: "false"
+- displayName: Enable account disabling
+  name: account.disable.handler.enable
+  value: "false"
+- displayName: Elasticsearch Username
+  name: adaptive_authentication.elastic.basicAuth.username
+  value: change-me
+- displayName: Send OTP in e-mail
+  name: LiteRegistration.OTP.SendOTPInEmail
+  value: "false"
+- displayName: Allowed Attribute Claim List
+  name: account.multiattributelogin.handler.allowedattributes
+  value: http://wso2.org/claims/username
+- displayName: OTP length
+  name: EmailVerification.OTP.OTPLength
+  value: "6"
+- displayName: Notification based password recovery via an email
+  name: Recovery.Notification.Password.emailLink.Enable
+  value: "false"
+- displayName: Resend Notification Max Attempts
+  name: PUSH.ResendNotificationMaxAttempts
+  value: "3"
+- displayName: Include uppercase characters in OTP
+  name: Recovery.Notification.Password.OTP.UseUppercaseCharactersInOTP
+  value: "true"
+- displayName: Manage notifications sending internally
+  name: EmailVerification.Notification.InternallyManage
+  value: "true"
+- displayName: null
+  name: EmailOTP.OtpRegex.UseNumericChars
+  value: "true"
+- displayName: Enable password reset offline
+  name: Recovery.AdminPasswordReset.Offline
+  value: "false"
+- displayName: Prompt reCaptcha
+  name: LiteRegistration.ReCaptcha
+  value: "true"
+- displayName: Elasticsearch Password
+  name: __secret__adaptive_authentication.elastic.basicAuth.password
+  value: change-me
+- displayName: Manage Lite-Sign-Up purposes
+  name: _url_listPurposeLiteUserSignUp
+  value: /carbon/consent/list-purposes.jsp?purposeGroup=LITE-SIGNUP&purposeGroupType=SYSTEM&callback=%2Fcarbon%2Fidpmgt%2Fidp-mgt-edit-local.jsp%3Fcategory%3DUser+Onboarding%26subCategory%3DLite+User+Registration
+- displayName: HTTP Connection Timeout
+  name: adaptive_authentication.analytics.HTTPConnectionTimeout
+  value: "3000"
+- displayName: User self registration SMS OTP regex
+  name: SelfRegistration.SMSOTP.Regex
+  value: '[a-zA-Z0-9]{6}'
+- displayName: Enforce security question answer uniqueness
+  name: Recovery.Question.Answer.Uniqueness
+  value: "false"
+- displayName: Enable Basic Authentication
+  name: adaptive_authentication.elastic.basicAuth.enabled
+  value: "true"
+- displayName: Manage notification sending internally
+  name: account.lock.handler.notification.manageInternally
+  value: "true"
+- displayName: User self registration verification link expiry time
+  name: SelfRegistration.VerificationCode.ExpiryTime
+  value: "1440"
+- displayName: Phone Number
+  name: phone
+  value: change-me
+- displayName: Security question based password recovery
+  name: Recovery.Question.Password.Enable
+  value: "false"
+- displayName: Manage JIT provisioning purposes
+  name: _url_listPurposeJITProvisioning
+  value: /carbon/consent/list-purposes.jsp?purposeGroup=JIT&purposeGroupType=SYSTEM&callback=%2Fcarbon%2Fidpmgt%2Fidp-mgt-edit-local.jsp%3Fcategory%3DUser+Onboarding%26subCategory%3DAsk+Password
+- displayName: SMS OTP token length
+  name: SmsOTP.OTPLength
+  value: "6"
+- displayName: Include uppercase characters in OTP
+  name: EmailVerification.OTP.UseUppercaseCharactersInOTP
+  value: "true"
+- displayName: SMS OTP regex
+  name: Recovery.Notification.Password.smsOtp.Regex
+  value: '[a-zA-Z0-9]{6}'
+- displayName: Number of allowed resend attempts
+  name: SmsOTP.ResendAttemptsCount
+  value: "5"
+- displayName: Enable Auto Login After Account Confirmation
+  name: SelfRegistration.AutoLogin.Enable
+  value: "false"
+- displayName: Resend confirmation email if the lite user exists
+  name: LiteRegistration.ResendVerificationOnUserExistence
+  value: "false"
+- displayName: Recovery callback URL regex
+  name: Recovery.CallbackRegex
+  value: https:\/\/localhost:9444\/.*
+- displayName: HTTP Read Timeout
+  name: adaptive_authentication.elastic.HTTPReadTimeout
+  value: "3000"
+- displayName: Notify when security questions based recovery starts
+  name: Recovery.Question.Password.NotifyStart
+  value: "false"
+- displayName: Enable password reset via recovery e-mail
+  name: Recovery.AdminPasswordReset.RecoveryLink
+  value: "false"
+- displayName: Include lowercase characters in OTP
+  name: Recovery.Notification.Password.OTP.UseLowercaseCharactersInOTP
+  value: "true"
+- displayName: Onboard admin to organization (root)
+  name: Organization.SelfService.OnboardAdminToOrg
+  value: "false"
+- displayName: Email verification code expiry time
+  name: EmailVerification.ExpiryTime
+  value: "1440"
+- displayName: Account lock duration increment factor
+  name: account.lock.handler.login.fail.timeout.ratio
+  value: "2"
+- displayName: User self registration callback URL regex
+  name: SelfRegistration.CallbackRegex
+  value: https:\/\/localhost:9444\/.*
+- displayName: Enable Basic Authentication
+  name: adaptive_authentication.analytics.basicAuth.enabled
+  value: "true"
+- displayName: Include uppercase characters in OTP
+  name: UserClaimUpdate.OTP.UseUppercaseCharactersInOTP
+  value: "true"
+- displayName: Resend Notification Time
+  name: PUSH.ResendNotificationTime
+  value: "60"
+- displayName: Use only numeric characters for OTP token
+  name: SmsOTP.OtpRegex.UseNumericChars
+  value: "true"
+- displayName: Security question answer regex
+  name: Recovery.Question.Answer.Regex
+  value: .*
+- displayName: OTP length
+  name: SelfRegistration.OTP.OTPLength
+  value: "6"
+- displayName: Send account activation email
+  name: EmailVerification.AskPassword.AccountActivation
+  value: "true"
+- displayName: Send OTP in e-mail
+  name: EmailVerification.OTP.SendOTPInEmail
+  value: "false"
+- displayName: Manage notifications sending internally
+  name: LiteRegistration.Notification.InternallyManage
+  value: "true"
+- displayName: On Behalf
+  name: onBehalf
+  value: change-me
+- displayName: Manage notifications sending internally
+  name: SelfRegistration.Notification.InternallyManage
+  value: "true"
+- displayName: Lite user registration SMS OTP expiry time
+  name: LiteRegistration.VerificationCode.SMSOTP.ExpiryTime
+  value: "1"
+- displayName: Locality
+  name: addressLocality
+  value: change-me
+- displayName: Region
+  name: addressRegion
+  value: change-me
+- displayName: Email Address
+  name: email
+  value: change-me
+- displayName: Notify when recovery success
+  name: Recovery.NotifySuccess
+  value: "false"
+- displayName: Alias of the key used to sign to cookie
+  name: SelfRegistration.AutoLogin.AliasName
+  value: wso2carbon
+- displayName: Show username unavailability
+  name: SelfRegistration.ShowUsernameUnavailability
+  value: "true"
+- displayName: Enable user email verification on update
+  name: UserClaimUpdate.Email.EnableVerification
+  value: "false"
+- displayName: Enable Auto Login After Password Reset
+  name: Recovery.AutoLogin.Enable
+  value: "false"
+- displayName: Prompt reCaptcha
+  name: SelfRegistration.ReCaptcha
+  value: "true"
+- displayName: User ID
+  name: adaptive_authentication.analytics.basicAuth.username
+  value: change-me
+- displayName: Notification based password recovery using SMS OTP
+  name: Recovery.Notification.Password.smsOtp.Enable
+  value: "false"
+- displayName: Max resend attempts for password recovery
+  name: Recovery.Notification.Password.MaxResendAttempts
+  value: "5"
+- displayName: Send OTP in e-mail
+  name: SelfRegistration.OTP.SendOTPInEmail
+  value: "false"
+- displayName: Initial account lock duration
+  name: account.lock.handler.Time
+  value: "5"
+- displayName: Include numbers in OTP
+  name: Recovery.Notification.Password.OTP.UseNumbersInOTP
+  value: "true"
+- displayName: Enable Account Confirmation On Creation
+  name: SelfRegistration.SendConfirmationOnCreation
+  value: "false"
+- displayName: Lock user account on creation
+  name: LiteRegistration.LockOnCreation
+  value: "true"
+- displayName: Post Office Box Number
+  name: postOfficeBoxNumber
+  value: change-me
+- displayName: Notify user when lock time is increased
+  name: account.lock.handler.notification.notifyOnLockIncrement
+  value: "false"
+- displayName: SMS OTP expiry time
+  name: Recovery.Notification.Password.ExpiryTime.smsOtp
+  value: "1"
+- displayName: Lite user registration SMS OTP regex
+  name: LiteRegistration.SMSOTP.Regex
+  value: '[a-zA-Z0-9]{6}'
+- displayName: Number of questions required for password recovery
+  name: Recovery.Question.Password.MinAnswers
+  value: "2"
+- displayName: Url
+  name: piiControllerUrl
+  value: change-me
+- displayName: Skip password expiry if no applicable rules
+  name: passwordExpiry.skipIfNoApplicableRules
+  value: "false"
+- displayName: Street Address
+  name: streetAddress
+  value: change-me
+- displayName: Include lowercase characters in OTP
+  name: LiteRegistration.OTP.UseLowercaseCharactersInOTP
+  value: "true"
+- displayName: Send OTP in e-mail
+  name: UserClaimUpdate.OTP.SendOTPInEmail
+  value: "false"
+- displayName: Alert sending time periods in days
+  name: suspension.notification.delays
+  value: 30,45,60,75
+- displayName: Enable Multi Attribute Login
+  name: account.multiattributelogin.handler.enable
+  value: "false"
+- displayName: Secret
+  name: __secret__adaptive_authentication.analytics.basicAuth.password
+  value: change-me
+- displayName: Enable authenticate with backup codes
+  name: EmailOTP.EnableBackupCodes
+  value: "false"
+- displayName: Enable account lock on creation
+  name: EmailVerification.LockOnCreation
+  value: "true"
+- displayName: Controller Name
+  name: piiController
+  value: change-me
+- displayName: Lite user registration
+  name: LiteRegistration.Enable
+  value: "false"
+- displayName: Enable reCaptcha for username recovery
+  name: Recovery.ReCaptcha.Username.Enable
+  value: "false"
+- displayName: Postal Code
+  name: postalCode
+  value: change-me
+- displayName: Lock user account on creation
+  name: SelfRegistration.LockOnCreation
+  value: "true"
+- displayName: Temporary password generation extension class
+  name: EmailVerification.AskPassword.PasswordGenerator
+  value: org.wso2.carbon.user.mgt.common.DefaultPasswordGenerator
+- displayName: null
+  name: RememberMeTimeout
+  value: "20160"
+- displayName: Validate password history
+  name: passwordHistory.enable
+  value: "false"
+- displayName: Enable admin email verification
+  name: Organization.SelfService.AdminEmailVerification
+  value: "false"
+- displayName: Prompt reCaptcha after max failed attempts
+  name: sso.login.recaptcha.enable
+  value: "false"
+- displayName: Send OTP in e-mail
+  name: Recovery.Notification.Password.OTP.SendOTPInEmail
+  value: "false"
+- displayName: Enable passkey progressive enrollment
+  name: FIDO.EnablePasskeyProgressiveEnrollment
+  value: "false"
+- displayName: Include uppercase characters in OTP
+  name: LiteRegistration.OTP.UseUppercaseCharactersInOTP
+  value: "true"
+- displayName: Include numbers in OTP
+  name: EmailVerification.OTP.UseNumbersInOTP
+  value: "true"
+- displayName: Ask password code expiry time
+  name: EmailVerification.AskPassword.ExpiryTime
+  value: "1440"
+- displayName: Password Expiry In Days
+  name: passwordExpiry.passwordExpiryInDays
+  value: "30"
+- displayName: Contact Name
+  name: contact
+  value: change-me
+- displayName: Send sign up confirmation email
+  name: SelfRegistration.NotifyAccountConfirmation
+  value: "false"
+- displayName: Enable reCaptcha for security questions based password recovery
+  name: Recovery.Question.Password.ReCaptcha.Enable
+  value: "true"
+- displayName: Max failed attempts for reCaptcha
+  name: sso.login.recaptcha.on.max.failed.attempts
+  value: "3"
+- displayName: Include lowercase characters in OTP
+  name: UserClaimUpdate.OTP.UseLowercaseCharactersInOTP
+  value: "true"
+- displayName: Manage notifications sending internally
+  name: Recovery.Notification.InternallyManage
+  value: "true"
+- displayName: null
+  name: SessionIdleTimeout
+  value: "15"
+- displayName: Country
+  name: addressCountry
+  value: change-me
+- displayName: Include lowercase characters in OTP
+  name: SelfRegistration.OTP.UseLowercaseCharactersInOTP
+  value: "true"
+- displayName: Enable organization self service
+  name: Organization.SelfService.Enable
+  value: "false"
+- displayName: Enable Progressive Enrollment
+  name: PUSH.EnableProgressiveEnrollment
+  value: "false"
+- displayName: HTTP Connection Request Timeout
+  name: adaptive_authentication.analytics.HTTPConnectionRequestTimeout
+  value: "1000"
+- displayName: Use alphanumeric characters for OTP token
+  name: EmailOTP.UseAlphanumericChars
+  value: "false"
+- displayName: Lite user registration callback URL regex
+  name: LiteRegistration.CallbackRegex
+  value: https:\/\/localhost:9444\/.*
+- displayName: Auto login after self service
+  name: Organization.SelfService.EnableAutoLogin
+  value: "false"
+- displayName: Enable reCaptcha for password recovery
+  name: Recovery.ReCaptcha.Password.Enable
+  value: "false"
+- displayName: Lock user accounts on maximum failed attempts
+  name: account.lock.handler.lock.on.max.failed.attempts.enable
+  value: "false"
+- displayName: OTP length
+  name: Recovery.Notification.Password.OTP.OTPLength
+  value: "6"
+- displayName: Manage notification sending internally
+  name: account.disable.handler.notification.manageInternally
+  value: "true"
+- displayName: Lite user registration verification link expiry time
+  name: LiteRegistration.VerificationCode.ExpiryTime
+  value: "1440"
+- displayName: HTTP Connection Request Timeout
+  name: adaptive_authentication.elastic.HTTPConnectionRequestTimeout
+  value: "1000"
+- displayName: Email verification on update link expiry time
+  name: UserClaimUpdate.Email.VerificationCode.ExpiryTime
+  value: "1440"
+- displayName: Maximum failed login attempts
+  name: account.lock.handler.On.Failure.Max.Attempts
+  value: "5"
+- displayName: Include numbers in OTP
+  name: UserClaimUpdate.OTP.UseNumbersInOTP
+  value: "true"
+- displayName: Mobile number verification on update SMS OTP expiry time
+  name: UserClaimUpdate.MobileNumber.VerificationCode.ExpiryTime
+  value: "5"
+- displayName: Notification based username recovery via SMS
+  name: Recovery.Notification.Username.SMS.Enable
+  value: "false"
+- displayName: Notification based username recovery via EMAIL
+  name: Recovery.Notification.Username.Email.Enable
+  value: "false"
+- displayName: Admin forced password reset code expiry time
+  name: Recovery.AdminPasswordReset.ExpiryTime
+  value: "1440"
+- displayName: Always prompt reCaptcha
+  name: sso.login.recaptcha.enable.always
+  value: "false"
+- displayName: Target Host
+  name: adaptive_authentication.analytics.receiver
+  value: https://localhost:8280/
+- displayName: Recovery link expiry time in minutes
+  name: Recovery.ExpiryTime
+  value: "1440"
+- displayName: Backup code size
+  name: BackupCode.BackupCodeSize
+  value: "10"
+- displayName: User self registration SMS OTP expiry time
+  name: SelfRegistration.VerificationCode.SMSOTP.ExpiryTime
+  value: "1"
+- displayName: OTP length
+  name: UserClaimUpdate.OTP.OTPLength
+  value: "6"
+- displayName: Allowed idle time span in days
+  name: suspension.notification.account.disable.delay
+  value: "90"
+- displayName: Enable password reset via OTP
+  name: Recovery.AdminPasswordReset.OTP
+  value: "false"
+- displayName: Password history validation count
+  name: passwordHistory.count
+  value: "5"
+- displayName: Username recovery
+  name: Recovery.Notification.Username.Enable
+  value: "false"
+- displayName: Include numbers in OTP
+  name: SelfRegistration.OTP.UseNumbersInOTP
+  value: "true"
+- displayName: Enable user email verification
+  name: EmailVerification.Enable
+  value: "false"
+- displayName: Max failed attempts for password recovery
+  name: Recovery.Notification.Password.MaxFailedAttempts
+  value: "3"
+- displayName: Enable user mobile number verification on update
+  name: UserClaimUpdate.MobileNumber.EnableVerification
+  value: "false"
+- displayName: Minimum number of forced security questions to be answered
+  name: Recovery.Question.MinQuestionsToAnswer
+  value: "1"
+- displayName: Enable usernameless authentication
+  name: FIDO.EnableUsernamelessAuthentication
+  value: "true"
+- displayName: Enable Password Expiry
+  name: passwordExpiry.enablePasswordExpiry
+  value: "false"
+- displayName: Suspend idle user accounts
+  name: suspension.notification.enable
+  value: "false"
+- displayName: Elasticsearch Host
+  name: adaptive_authentication.elastic.receiver
+  value: https://localhost:9200
+- displayName: Max failed attempts for reCaptcha
+  name: Recovery.Question.Password.ReCaptcha.MaxFailedAttempts
+  value: "2"
+- displayName: Include numbers in OTP
+  name: LiteRegistration.OTP.UseNumbersInOTP
+  value: "true"
+- displayName: Manage Self-Sign-Up purposes
+  name: _url_listPurposeSelfSignUp
+  value: /carbon/consent/list-purposes.jsp?purposeGroup=SELF-SIGNUP&purposeGroupType=SYSTEM&callback=%2Fcarbon%2Fidpmgt%2Fidp-mgt-edit-local.jsp%3Fcategory%3DUser+Onboarding%26subCategory%3DSelf+Registration
+- displayName: Backup code length
+  name: BackupCode.BackupCodeLength
+  value: "6"
+- displayName: Notification based password recovery
+  name: Recovery.Notification.Password.Enable
+  value: "false"
+- displayName: Enable Number Challenge
+  name: PUSH.EnableNumberChallenge
+  value: "false"
+- displayName: OTP length
+  name: LiteRegistration.OTP.OTPLength
+  value: "6"
+- displayName: Email OTP token length
+  name: EmailOTP.OTPLength
+  value: "6"
+- displayName: Include uppercase characters in OTP
+  name: SelfRegistration.OTP.UseUppercaseCharactersInOTP
+  value: "true"
+- displayName: null
+  name: isTrustedTokenIssuer
+  value: "false"
+- displayName: Hostname verification
+  name: adaptive_authentication.elastic.hostnameVerfier
+  value: STRICT
+- displayName: Email OTP expiry time
+  name: EmailOTP.ExpiryTime
+  value: "300"
+- displayName: Prompt reCaptcha on re-send confirmation
+  name: SelfRegistration.ResendConfirmationReCaptcha
+  value: "false"
+imageUrl: null
+justInTimeProvisioningConfig:
+  associateLocalUserEnabled: false
+  attributeSyncMethod: OVERRIDE_ALL
+  dumbMode: false
+  modifyUserNameAllowed: false
+  passwordProvisioningEnabled: false
+  promptConsent: false
+  provisioningEnabled: false
+  provisioningUserStore: null
+  userStoreClaimUri: null
+permissionAndRoleConfig:
+  idpRoles: []
+  permissions: []
+  roleMappings: []
+primary: true
+provisioningConnectorConfigs:
+- blocking: false
+  enabled: false
+  name: scim
+  provisioningProperties:
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: scimUserEndpoint
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/wso2/scim/Users
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: scimGroupEndpoint
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/wso2/scim/Groups
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: scim2UserEndpoint
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/scim2/Users
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: scim2GroupEndpoint
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: null
+    value: https://localhost:9444/scim2/Groups
+  rulesEnabled: false
+provisioningRole: null
+templateId: null
+trustedTokenIssuer: false
