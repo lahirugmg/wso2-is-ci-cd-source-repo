@@ -1,0 +1,866 @@
+!!org.wso2.carbon.identity.rest.api.server.claim.management.v1.model.ClaimDialectConfiguration
+claims:
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:userSourceId
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6dXNlclNvdXJjZUlk
+  mappedLocalClaimURI: http://wso2.org/claims/identity/userSourceId
+  properties:
+  - key: Description
+    value: User Provisioned IDP ID
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/userSourceId
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: User Source ID
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:dateOfBirth
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6ZGF0ZU9mQmlydGg
+  mappedLocalClaimURI: http://wso2.org/claims/dob
+  properties:
+  - key: Description
+    value: Date of birth
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/dob
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Date Of Birth
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:failedBackupCodeAttempts
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6ZmFpbGVkQmFja3VwQ29kZUF0dGVtcHRz
+  mappedLocalClaimURI: http://wso2.org/claims/identity/failedBackupCodeAttempts
+  properties:
+  - key: Description
+    value: Number of failed backup code attempts
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/failedBackupCodeAttempts
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Failed Backup Code Attempts
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:smsOTPDisabled
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6c21zT1RQRGlzYWJsZWQ
+  mappedLocalClaimURI: http://wso2.org/claims/identity/smsotp_disabled
+  properties:
+  - key: Description
+    value: Store whether SMS OTP is enabled or disabled
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/smsotp_disabled
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Disable SMS OTP
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:emailOTPDisabled
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6ZW1haWxPVFBEaXNhYmxlZA
+  mappedLocalClaimURI: http://wso2.org/claims/identity/emailotp_disabled
+  properties:
+  - key: Description
+    value: Store whether email OTP is enabled or disabled
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/emailotp_disabled
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Disable email OTP
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:pendingMobileNumber
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6cGVuZGluZ01vYmlsZU51bWJlcg
+  mappedLocalClaimURI: http://wso2.org/claims/identity/mobileNumber.pendingValue
+  properties:
+  - key: Description
+    value: To store newly updated mobile number until it is verified
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/mobileNumber.pendingValue
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Verification Pending Mobile
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:preferredChannel
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6cHJlZmVycmVkQ2hhbm5lbA
+  mappedLocalClaimURI: http://wso2.org/claims/identity/preferredChannel
+  properties:
+  - key: Description
+    value: Preferred Notification Channel
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/preferredChannel
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Preferred Channel
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:lockedReason
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6bG9ja2VkUmVhc29u
+  mappedLocalClaimURI: http://wso2.org/claims/identity/lockedReason
+  properties:
+  - key: Description
+    value: The reason why the user account is locked
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/lockedReason
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Locked Reason
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:isReadOnlyUser
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6aXNSZWFkT25seVVzZXI
+  mappedLocalClaimURI: http://wso2.org/claims/identity/isReadOnlyUser
+  properties:
+  - key: Description
+    value: Claim to store if the user is read only
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/isReadOnlyUser
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Read Only User
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:verifiedMobileNumbers
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6dmVyaWZpZWRNb2JpbGVOdW1iZXJz
+  mappedLocalClaimURI: http://wso2.org/claims/verifiedMobileNumbers
+  properties:
+  - key: Description
+    value: Verified Mobile Numbers
+  - key: DisplayOrder
+    value: "14"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/verifiedMobileNumbers
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Verified Mobile Numbers
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:failedSMSOTPAttempts
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6ZmFpbGVkU01TT1RQQXR0ZW1wdHM
+  mappedLocalClaimURI: http://wso2.org/claims/identity/failedSmsOtpAttempts
+  properties:
+  - key: Description
+    value: Number of failed SMS OTP attempts
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/failedSmsOtpAttempts
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Failed SMS OTP attempts
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:oneTimePassword
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6b25lVGltZVBhc3N3b3Jk
+  mappedLocalClaimURI: http://wso2.org/claims/oneTimePassword
+  properties:
+  - key: Description
+    value: One Time Password
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/oneTimePassword
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: One Time Password
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:verifyEmail
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6dmVyaWZ5RW1haWw
+  mappedLocalClaimURI: http://wso2.org/claims/identity/verifyEmail
+  properties:
+  - key: Description
+    value: Temporary claim to invoke email verified feature
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/verifyEmail
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Verify Email
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:failedTOTPAttempts
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6ZmFpbGVkVE9UUEF0dGVtcHRz
+  mappedLocalClaimURI: http://wso2.org/claims/identity/failedTotpAttempts
+  properties:
+  - key: Description
+    value: Number of failed TOTP attempts
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/failedTotpAttempts
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Failed TOTP Attempts
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:lastLoginTime
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6bGFzdExvZ2luVGltZQ
+  mappedLocalClaimURI: http://wso2.org/claims/identity/lastLoginTime
+  properties:
+  - key: Description
+    value: Last login time
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/lastLoginTime
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Last Login Time
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:failedLoginAttempts
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6ZmFpbGVkTG9naW5BdHRlbXB0cw
+  mappedLocalClaimURI: http://wso2.org/claims/identity/failedLoginAttempts
+  properties:
+  - key: Description
+    value: Number of failed login attempts
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/failedLoginAttempts
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Faliled Login Attempts
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:emailVerified
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6ZW1haWxWZXJpZmllZA
+  mappedLocalClaimURI: http://wso2.org/claims/identity/emailVerified
+  properties:
+  - key: Description
+    value: True if the End-User's e-mail address has been verified; otherwise false
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/emailVerified
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Email Verified
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:verifyMobile
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6dmVyaWZ5TW9iaWxl
+  mappedLocalClaimURI: http://wso2.org/claims/identity/verifyMobile
+  properties:
+  - key: Description
+    value: Temporary claim to invoke mobile verification feature
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/verifyMobile
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Verify Mobile
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:country
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6Y291bnRyeQ
+  mappedLocalClaimURI: http://wso2.org/claims/country
+  properties:
+  - key: Description
+    value: Country
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/country
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Country
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:passwordExpiryTime
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6cGFzc3dvcmRFeHBpcnlUaW1l
+  mappedLocalClaimURI: http://wso2.org/claims/identity/passwordExpiryTime
+  properties:
+  - key: Description
+    value: Password Expiry Time
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/passwordExpiryTime
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Password Expiry Time
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:lastLogonTime
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6bGFzdExvZ29uVGltZQ
+  mappedLocalClaimURI: http://wso2.org/claims/identity/lastLogonTime
+  properties:
+  - key: Description
+    value: Last logon time
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/lastLogonTime
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Last Logon Time
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:totpEnabled
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6dG90cEVuYWJsZWQ
+  mappedLocalClaimURI: http://wso2.org/claims/identity/totpEnabled
+  properties:
+  - key: Description
+    value: TOTP Authenticator Enabled
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/totpEnabled
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: TOTP Enabled
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:failedLoginAttemptsBeforeSuccess
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6ZmFpbGVkTG9naW5BdHRlbXB0c0JlZm9yZVN1Y2Nlc3M
+  mappedLocalClaimURI: http://wso2.org/claims/identity/failedLoginAttemptsBeforeSuccess
+  properties:
+  - key: Description
+    value: Number of failed attempts before a success login
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/failedLoginAttemptsBeforeSuccess
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Faliled Login Attempts Before Success
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:phoneVerified
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6cGhvbmVWZXJpZmllZA
+  mappedLocalClaimURI: http://wso2.org/claims/identity/phoneVerified
+  properties:
+  - key: Description
+    value: True if the End-User's phone number has been verified; otherwise false
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/phoneVerified
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Phone Verified
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:lastPasswordUpdateTime
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6bGFzdFBhc3N3b3JkVXBkYXRlVGltZQ
+  mappedLocalClaimURI: http://wso2.org/claims/identity/lastPasswordUpdateTime
+  properties:
+  - key: Description
+    value: Last password update time
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/lastPasswordUpdateTime
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Last Password Update Time
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:forcePasswordReset
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6Zm9yY2VQYXNzd29yZFJlc2V0
+  mappedLocalClaimURI: http://wso2.org/claims/identity/adminForcedPasswordReset
+  properties:
+  - key: Description
+    value: Temporary claim to invoke forced password reset feature
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/adminForcedPasswordReset
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Force Password Reset
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:accountLocked
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6YWNjb3VudExvY2tlZA
+  mappedLocalClaimURI: http://wso2.org/claims/identity/accountLocked
+  properties:
+  - key: Description
+    value: Account locked
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/accountLocked
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Account Locked
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:failedPasswordRecoveryAttempts
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6ZmFpbGVkUGFzc3dvcmRSZWNvdmVyeUF0dGVtcHRz
+  mappedLocalClaimURI: http://wso2.org/claims/identity/failedPasswordRecoveryAttempts
+  properties:
+  - key: Description
+    value: Number of consecutive failed attempts done for password recovery
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/failedPasswordRecoveryAttempts
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Failed Password Recovery Attempts
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:unlockTime
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6dW5sb2NrVGltZQ
+  mappedLocalClaimURI: http://wso2.org/claims/identity/unlockTime
+  properties:
+  - key: Description
+    value: Unlock time
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/unlockTime
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Unlock Time
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:mobileNumbers
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6bW9iaWxlTnVtYmVycw
+  mappedLocalClaimURI: http://wso2.org/claims/mobileNumbers
+  properties:
+  - key: Description
+    value: Mobile Numbers
+  - key: DisplayOrder
+    value: "13"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/mobileNumbers
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Mobile Numbers
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:preferredMFAOption
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6cHJlZmVycmVkTUZBT3B0aW9u
+  mappedLocalClaimURI: http://wso2.org/claims/identity/preferredMFAOption
+  properties:
+  - key: Description
+    value: Preferred MFA option
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/preferredMFAOption
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: PreferredMFAOption
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:isLiteUser
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6aXNMaXRlVXNlcg
+  mappedLocalClaimURI: http://wso2.org/claims/identity/isLiteUser
+  properties:
+  - key: Description
+    value: Store whether the account is a lite user account
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/isLiteUser
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Lite User
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:backupCodeEnabled
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6YmFja3VwQ29kZUVuYWJsZWQ
+  mappedLocalClaimURI: http://wso2.org/claims/identity/backupCodeEnabled
+  properties:
+  - key: Description
+    value: Whether user has configured backup code authenticator or not.
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/backupCodeEnabled
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Backup Code Enabled
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:sharedType
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6c2hhcmVkVHlwZQ
+  mappedLocalClaimURI: http://wso2.org/claims/identity/sharedType
+  properties:
+  - key: Description
+    value: Shared type of the user
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/sharedType
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Shared Type
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:accountState
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6YWNjb3VudFN0YXRl
+  mappedLocalClaimURI: http://wso2.org/claims/identity/accountState
+  properties:
+  - key: Description
+    value: Account state
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/accountState
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Account State
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:managedOrg
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6bWFuYWdlZE9yZw
+  mappedLocalClaimURI: http://wso2.org/claims/identity/managedOrg
+  properties:
+  - key: Description
+    value: Organization where the user is managed
+  - key: DisplayOrder
+    value: "1"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/managedOrg
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Managed Organization
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:accountDisabled
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6YWNjb3VudERpc2FibGVk
+  mappedLocalClaimURI: http://wso2.org/claims/identity/accountDisabled
+  properties:
+  - key: Description
+    value: Store whether the user account is disabled or not
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/accountDisabled
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Account Disabled
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:tenantAdminAskPassword
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6dGVuYW50QWRtaW5Bc2tQYXNzd29yZA
+  mappedLocalClaimURI: http://wso2.org/claims/identity/tenantAdminAskPassword
+  properties:
+  - key: Description
+    value: Temporary claim to invoke email tenant admin ask Password feature
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/tenantAdminAskPassword
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Tenant Admin Ask Password
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:emailAddresses
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6ZW1haWxBZGRyZXNzZXM
+  mappedLocalClaimURI: http://wso2.org/claims/emailAddresses
+  properties:
+  - key: Description
+    value: Email Addresses
+  - key: DisplayOrder
+    value: "11"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/emailAddresses
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Email Addresses
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:failedEmailOTPAttempts
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6ZmFpbGVkRW1haWxPVFBBdHRlbXB0cw
+  mappedLocalClaimURI: http://wso2.org/claims/identity/failedEmailOtpAttempts
+  properties:
+  - key: Description
+    value: Number of failed email OTP attempts
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/failedEmailOtpAttempts
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Account State
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:verifiedEmailAddresses
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6dmVyaWZpZWRFbWFpbEFkZHJlc3Nlcw
+  mappedLocalClaimURI: http://wso2.org/claims/verifiedEmailAddresses
+  properties:
+  - key: Description
+    value: Verified Email Addresses
+  - key: DisplayOrder
+    value: "12"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/verifiedEmailAddresses
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Verified Email Addresses
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:askPassword
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6YXNrUGFzc3dvcmQ
+  mappedLocalClaimURI: http://wso2.org/claims/identity/askPassword
+  properties:
+  - key: Description
+    value: Temporary claim to invoke email ask Password feature
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/askPassword
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Ask Password
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:pendingEmails.value
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6cGVuZGluZ0VtYWlscy52YWx1ZQ
+  mappedLocalClaimURI: http://wso2.org/claims/identity/emailaddress.pendingValue
+  properties:
+  - key: Description
+    value: Claim to store newly updated email address until the new email address
+      is verified
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/emailaddress.pendingValue
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Verification Pending Email
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: urn:scim:wso2:schema
+  claimURI: urn:scim:wso2:schema:failedLoginLockoutCount
+  id: dXJuOnNjaW06d3NvMjpzY2hlbWE6ZmFpbGVkTG9naW5Mb2Nrb3V0Q291bnQ
+  mappedLocalClaimURI: http://wso2.org/claims/identity/failedLoginLockoutCount
+  properties:
+  - key: Description
+    value: Failed lockout count
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/identity/failedLoginLockoutCount
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Failed Lockout Count
+dialectURI: urn:scim:wso2:schema
+id: dXJuOnNjaW06d3NvMjpzY2hlbWE
+link:
+  href: /api/server/v1/claim-dialects/dXJuOnNjaW06d3NvMjpzY2hlbWE/claims
+  rel: claims

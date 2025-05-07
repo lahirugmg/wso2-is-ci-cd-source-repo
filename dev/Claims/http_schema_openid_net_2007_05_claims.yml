@@ -1,0 +1,177 @@
+!!org.wso2.carbon.identity.rest.api.server.claim.management.v1.model.ClaimDialectConfiguration
+claims:
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: http://schema.openid.net/2007/05/claims
+  claimURI: dob
+  id: ZG9i
+  mappedLocalClaimURI: http://wso2.org/claims/dob
+  properties:
+  - key: Description
+    value: Date of Birth
+  - key: DisplayOrder
+    value: "6"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/dob
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: DOB
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: http://schema.openid.net/2007/05/claims
+  claimURI: postcode
+  id: cG9zdGNvZGU
+  mappedLocalClaimURI: http://wso2.org/claims/postalcode
+  properties:
+  - key: Description
+    value: Postalcode
+  - key: DisplayOrder
+    value: "4"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/postalcode
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Postalcode
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: http://schema.openid.net/2007/05/claims
+  claimURI: country
+  id: Y291bnRyeQ
+  mappedLocalClaimURI: http://wso2.org/claims/country
+  properties:
+  - key: Description
+    value: Country
+  - key: DisplayOrder
+    value: "5"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/country
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Country
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: http://schema.openid.net/2007/05/claims
+  claimURI: timezone
+  id: dGltZXpvbmU
+  mappedLocalClaimURI: http://wso2.org/claims/timeZone
+  properties:
+  - key: Description
+    value: Time Zone
+  - key: DisplayOrder
+    value: "9"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/timeZone
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Time Zone
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: http://schema.openid.net/2007/05/claims
+  claimURI: gender
+  id: Z2VuZGVy
+  mappedLocalClaimURI: http://wso2.org/claims/gender
+  properties:
+  - key: Description
+    value: Gender
+  - key: DisplayOrder
+    value: "8"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/gender
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Gender
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: http://schema.openid.net/2007/05/claims
+  claimURI: language
+  id: bGFuZ3VhZ2U
+  mappedLocalClaimURI: http://wso2.org/claims/preferredLanguage
+  properties:
+  - key: Description
+    value: Language
+  - key: DisplayOrder
+    value: "7"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/preferredLanguage
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Language
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: http://schema.openid.net/2007/05/claims
+  claimURI: fullname
+  id: ZnVsbG5hbWU
+  mappedLocalClaimURI: http://wso2.org/claims/fullname
+  properties:
+  - key: Description
+    value: Full Name
+  - key: DisplayOrder
+    value: "2"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/fullname
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Full Name
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: http://schema.openid.net/2007/05/claims
+  claimURI: email
+  id: ZW1haWw
+  mappedLocalClaimURI: http://wso2.org/claims/emailaddress
+  properties:
+  - key: Description
+    value: Email Address
+  - key: DisplayOrder
+    value: "3"
+  - key: Required
+    value: "true"
+  - key: RegEx
+    value: ^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/emailaddress
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Email
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
+  claimDialectURI: http://schema.openid.net/2007/05/claims
+  claimURI: nickname
+  id: bmlja25hbWU
+  mappedLocalClaimURI: http://wso2.org/claims/nickname
+  properties:
+  - key: Description
+    value: Nick Name
+  - key: DisplayOrder
+    value: "1"
+  - key: Required
+    value: "true"
+  - key: SupportedByDefault
+    value: "true"
+  - key: MappedLocalClaim
+    value: http://wso2.org/claims/nickname
+  - key: isSystemClaim
+    value: "true"
+  - key: DisplayName
+    value: Nick Name
+dialectURI: http://schema.openid.net/2007/05/claims
+id: aHR0cDovL3NjaGVtYS5vcGVuaWQubmV0LzIwMDcvMDUvY2xhaW1z
+link:
+  href: /api/server/v1/claim-dialects/aHR0cDovL3NjaGVtYS5vcGVuaWQubmV0LzIwMDcvMDUvY2xhaW1z/claims
+  rel: claims
