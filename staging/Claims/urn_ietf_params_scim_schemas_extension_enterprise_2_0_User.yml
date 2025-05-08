@@ -6,160 +6,64 @@ claims:
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpleHRlbnNpb246ZW50ZXJwcmlzZToyLjA6VXNlcjptYW5hZ2VyLnZhbHVl
   mappedLocalClaimURI: http://wso2.org/claims/gender
   properties:
-  - key: Description
-    value: Manager - home
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/gender
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Manager - home
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User
   claimURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:organization
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpleHRlbnNpb246ZW50ZXJwcmlzZToyLjA6VXNlcjpvcmdhbml6YXRpb24
   mappedLocalClaimURI: http://wso2.org/claims/organization
   properties:
-  - key: Description
-    value: Organization -division
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/organization
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Organization -division
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User
   claimURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:employeeNumber
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpleHRlbnNpb246ZW50ZXJwcmlzZToyLjA6VXNlcjplbXBsb3llZU51bWJlcg
   mappedLocalClaimURI: http://wso2.org/claims/extendedExternalId
   properties:
-  - key: Description
-    value: Employee Number
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/extendedExternalId
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Employee Number
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User
   claimURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:manager.$ref
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpleHRlbnNpb246ZW50ZXJwcmlzZToyLjA6VXNlcjptYW5hZ2VyLiRyZWY
   mappedLocalClaimURI: http://wso2.org/claims/extendedRef
   properties:
-  - key: Description
-    value: Manager - home
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/extendedRef
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Manager - home
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User
   claimURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:division
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpleHRlbnNpb246ZW50ZXJwcmlzZToyLjA6VXNlcjpkaXZpc2lvbg
   mappedLocalClaimURI: http://wso2.org/claims/stateorprovince
   properties:
-  - key: Description
-    value: Manager - home
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/stateorprovince
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Manager - home
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User
   claimURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:costCenter
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpleHRlbnNpb246ZW50ZXJwcmlzZToyLjA6VXNlcjpjb3N0Q2VudGVy
   mappedLocalClaimURI: http://wso2.org/claims/costCenter
   properties:
-  - key: Description
-    value: Cost Center
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/costCenter
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Cost Center
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User
   claimURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:manager.displayName
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpleHRlbnNpb246ZW50ZXJwcmlzZToyLjA6VXNlcjptYW5hZ2VyLmRpc3BsYXlOYW1l
   mappedLocalClaimURI: http://wso2.org/claims/extendedDisplayName
   properties:
-  - key: Description
-    value: Manager - Display Name
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/extendedDisplayName
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Manager - Display Name
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User
   claimURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:department
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpleHRlbnNpb246ZW50ZXJwcmlzZToyLjA6VXNlcjpkZXBhcnRtZW50
   mappedLocalClaimURI: http://wso2.org/claims/department
   properties:
-  - key: Description
-    value: Organization -department
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/department
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Organization -department
 dialectURI: urn:ietf:params:scim:schemas:extension:enterprise:2.0:User
 id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpleHRlbnNpb246ZW50ZXJwcmlzZToyLjA6VXNlcg
 link:

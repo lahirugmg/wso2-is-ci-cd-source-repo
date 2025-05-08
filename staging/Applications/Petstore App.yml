@@ -52,7 +52,7 @@ inboundAuthenticationConfig:
         federatedUser: false
         sharedUserId: null
         userAttributes: {}
-        userId: 12cab9f1-d8b1-4076-913e-ffac147457bb
+        userId: 3bed8b88-4034-4b71-a5f2-5ea3bee7e009
         userName: admin
         userResidentOrganization: null
         userSharedOrganizationId: null
@@ -106,7 +106,7 @@ inboundAuthenticationConfig:
         federatedUser: false
         sharedUserId: null
         userAttributes: {}
-        userId: 12cab9f1-d8b1-4076-913e-ffac147457bb
+        userId: 3bed8b88-4034-4b71-a5f2-5ea3bee7e009
         userName: admin
         userResidentOrganization: null
         userSharedOrganizationId: null

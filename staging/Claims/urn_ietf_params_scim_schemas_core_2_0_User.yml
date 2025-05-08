@@ -6,763 +6,312 @@ claims:
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnBob25lTnVtYmVycy5mYXg
   mappedLocalClaimURI: http://wso2.org/claims/phoneNumbers.fax
   properties:
-  - key: Description
-    value: Fax Phone Number
-  - key: DisplayOrder
-    value: "5"
-  - key: RegEx
-    value: '^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{2,3})[-. )]*(\d{3})[-. ]*(\d{4,6})(?:
-      *x(\d+))?\s*$'
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/phoneNumbers.fax
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Phone Numbers - Fax Phone Number
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:emails
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmVtYWlscw
   mappedLocalClaimURI: http://wso2.org/claims/emailaddress
   properties:
-  - key: Description
-    value: Email Addresses
-  - key: DisplayOrder
-    value: "5"
-  - key: RegEx
-    value: ^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/emailaddress
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Emails
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnBob25lTnVtYmVycw
   mappedLocalClaimURI: http://wso2.org/claims/phoneNumbers
   properties:
-  - key: Description
-    value: Phone Numbers
-  - key: DisplayOrder
-    value: "5"
-  - key: RegEx
-    value: '^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{2,3})[-. )]*(\d{3})[-. ]*(\d{4,6})(?:
-      *x(\d+))?\s*$'
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/phoneNumbers
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Phone Numbers
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.pager
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnBob25lTnVtYmVycy5wYWdlcg
   mappedLocalClaimURI: http://wso2.org/claims/phoneNumbers.pager
   properties:
-  - key: Description
-    value: Pager Phone Number
-  - key: DisplayOrder
-    value: "5"
-  - key: RegEx
-    value: '^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{2,3})[-. )]*(\d{3})[-. ]*(\d{4,6})(?:
-      *x(\d+))?\s*$'
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/phoneNumbers.pager
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Phone Numbers - Pager Phone Number
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:name.familyName
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOm5hbWUuZmFtaWx5TmFtZQ
   mappedLocalClaimURI: http://wso2.org/claims/lastname
   properties:
-  - key: Description
-    value: Family Name
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/lastname
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Name - Family Name
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:photos.photo
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnBob3Rvcy5waG90bw
   mappedLocalClaimURI: http://wso2.org/claims/photourl
   properties:
-  - key: Description
-    value: Photo
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/photourl
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Photo
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:title
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnRpdGxl
   mappedLocalClaimURI: http://wso2.org/claims/title
   properties:
-  - key: Description
-    value: Title
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/title
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Title
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:emails.home
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmVtYWlscy5ob21l
   mappedLocalClaimURI: http://wso2.org/claims/emails.home
   properties:
-  - key: Description
-    value: Home Email
-  - key: DisplayOrder
-    value: "5"
-  - key: RegEx
-    value: ^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/emails.home
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Emails - Home Email
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:displayName
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmRpc3BsYXlOYW1l
   mappedLocalClaimURI: http://wso2.org/claims/displayName
   properties:
-  - key: Description
-    value: Display Name
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/displayName
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Display Name
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:x509Certificates.default
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOng1MDlDZXJ0aWZpY2F0ZXMuZGVmYXVsdA
   mappedLocalClaimURI: http://wso2.org/claims/x509Certificates
   properties:
-  - key: Description
-    value: X509Certificates
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/x509Certificates
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: X509Certificates
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:name.formatted
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOm5hbWUuZm9ybWF0dGVk
   mappedLocalClaimURI: http://wso2.org/claims/formattedName
   properties:
-  - key: Description
-    value: Formatted Name
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/formattedName
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Name - Formatted Name
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:entitlements.default
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmVudGl0bGVtZW50cy5kZWZhdWx0
   mappedLocalClaimURI: http://wso2.org/claims/entitlements
   properties:
-  - key: Description
-    value: Entitlements
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/entitlements
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Entitlements
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:addresses
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmFkZHJlc3Nlcw
   mappedLocalClaimURI: http://wso2.org/claims/addresses
   properties:
-  - key: Description
-    value: Address
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/addresses
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Address
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:userName
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnVzZXJOYW1l
   mappedLocalClaimURI: http://wso2.org/claims/username
   properties:
-  - key: Description
-    value: User Name
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/username
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: User Name
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:timezone
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnRpbWV6b25l
   mappedLocalClaimURI: http://wso2.org/claims/timeZone
   properties:
-  - key: Description
-    value: Time Zone
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/timeZone
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Time Zone
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:name.honorificSuffix
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOm5hbWUuaG9ub3JpZmljU3VmZml4
   mappedLocalClaimURI: http://wso2.org/claims/honorificSuffix
   properties:
-  - key: Description
-    value: Honoric Suffix
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/honorificSuffix
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Name - Honoric Suffix
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:name.middleName
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOm5hbWUubWlkZGxlTmFtZQ
   mappedLocalClaimURI: http://wso2.org/claims/middleName
   properties:
-  - key: Description
-    value: Middle Name
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/middleName
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Name - Middle Name
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:addresses.work
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmFkZHJlc3Nlcy53b3Jr
   mappedLocalClaimURI: http://wso2.org/claims/region
   properties:
-  - key: Description
-    value: Address - Work
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/region
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Address - Work
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:ims.skype
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmltcy5za3lwZQ
   mappedLocalClaimURI: http://wso2.org/claims/skype
   properties:
-  - key: Description
-    value: IM - Skype
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/skype
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: IM - Skype
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.work
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnBob25lTnVtYmVycy53b3Jr
   mappedLocalClaimURI: http://wso2.org/claims/phoneNumbers.work
   properties:
-  - key: Description
-    value: Work Phone
-  - key: DisplayOrder
-    value: "5"
-  - key: RegEx
-    value: '^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{2,3})[-. )]*(\d{3})[-. ]*(\d{4,6})(?:
-      *x(\d+))?\s*$'
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/phoneNumbers.work
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Phone Numbers - Work Phone Number
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:emails.work
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmVtYWlscy53b3Jr
   mappedLocalClaimURI: http://wso2.org/claims/emails.work
   properties:
-  - key: Description
-    value: Work Email
-  - key: DisplayOrder
-    value: "5"
-  - key: RegEx
-    value: ^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/emails.work
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Emails - Work Email
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:active
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmFjdGl2ZQ
   mappedLocalClaimURI: http://wso2.org/claims/active
   properties:
-  - key: Description
-    value: Active
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/active
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Active
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:photos.thumbnail
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnBob3Rvcy50aHVtYm5haWw
   mappedLocalClaimURI: http://wso2.org/claims/thumbnail
   properties:
-  - key: Description
-    value: Photo - Thumbnail
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/thumbnail
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Photo - Thumbnail
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:name.honorificPrefix
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOm5hbWUuaG9ub3JpZmljUHJlZml4
   mappedLocalClaimURI: http://wso2.org/claims/honorificPrefix
   properties:
-  - key: Description
-    value: Honoric Prefix
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/honorificPrefix
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Name - Honoric Prefix
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:locale
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmxvY2FsZQ
   mappedLocalClaimURI: http://wso2.org/claims/local
   properties:
-  - key: Description
-    value: Locality
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/local
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Locality
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnByZWZlcnJlZExhbmd1YWdl
   mappedLocalClaimURI: http://wso2.org/claims/preferredLanguage
   properties:
-  - key: Description
-    value: Preferred Language
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/preferredLanguage
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Preferred Language
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:emails.other
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmVtYWlscy5vdGhlcg
   mappedLocalClaimURI: http://wso2.org/claims/emails.other
   properties:
-  - key: Description
-    value: Other Email
-  - key: DisplayOrder
-    value: "5"
-  - key: RegEx
-    value: ^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/emails.other
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Emails - Other Email
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.other
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnBob25lTnVtYmVycy5vdGhlcg
   mappedLocalClaimURI: http://wso2.org/claims/phoneNumbers.other
   properties:
-  - key: Description
-    value: Other Phone Number
-  - key: DisplayOrder
-    value: "5"
-  - key: RegEx
-    value: '^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{2,3})[-. )]*(\d{3})[-. ]*(\d{4,6})(?:
-      *x(\d+))?\s*$'
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/phoneNumbers.other
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Phone Numbers - Other
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:photos
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnBob3Rvcw
   mappedLocalClaimURI: http://wso2.org/claims/photos
   properties:
-  - key: Description
-    value: Photo
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/photos
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Photo
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:groups
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmdyb3Vwcw
   mappedLocalClaimURI: http://wso2.org/claims/groups
   properties:
-  - key: Description
-    value: Groups
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/groups
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Groups
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:addresses.home
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmFkZHJlc3Nlcy5ob21l
   mappedLocalClaimURI: http://wso2.org/claims/addresses.locality
   properties:
-  - key: Description
-    value: Address - Home
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/addresses.locality
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Address - Home
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:ims.gtalk
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOmltcy5ndGFsaw
   mappedLocalClaimURI: http://wso2.org/claims/gtalk
   properties:
-  - key: Description
-    value: IM - Gtalk
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/gtalk
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: IM - Gtalk
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:userType
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnVzZXJUeXBl
   mappedLocalClaimURI: http://wso2.org/claims/userType
   properties:
-  - key: Description
-    value: User Type
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/userType
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: User Type
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:nickName
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOm5pY2tOYW1l
   mappedLocalClaimURI: http://wso2.org/claims/nickname
   properties:
-  - key: Description
-    value: Nick Name
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/nickname
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Nick Name
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:roles.default
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnJvbGVzLmRlZmF1bHQ
   mappedLocalClaimURI: http://wso2.org/claims/roles
   properties:
-  - key: Description
-    value: Roles
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/roles
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Roles
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.home
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnBob25lTnVtYmVycy5ob21l
   mappedLocalClaimURI: http://wso2.org/claims/phoneNumbers.home
   properties:
-  - key: Description
-    value: Home Phone
-  - key: DisplayOrder
-    value: "5"
-  - key: RegEx
-    value: '^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{2,3})[-. )]*(\d{3})[-. ]*(\d{4,6})(?:
-      *x(\d+))?\s*$'
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/phoneNumbers.home
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Phone Numbers - Home Phone Number
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:name.givenName
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOm5hbWUuZ2l2ZW5OYW1l
   mappedLocalClaimURI: http://wso2.org/claims/givenname
   properties:
-  - key: Description
-    value: Given Name
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/givenname
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Name - Given Name
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers.mobile
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnBob25lTnVtYmVycy5tb2JpbGU
   mappedLocalClaimURI: http://wso2.org/claims/mobile
   properties:
-  - key: Description
-    value: Mobile Number
-  - key: DisplayOrder
-    value: "5"
-  - key: RegEx
-    value: '^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{2,3})[-. )]*(\d{3})[-. ]*(\d{4,6})(?:
-      *x(\d+))?\s*$'
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/mobile
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Phone Numbers - Mobile Number
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0:User
   claimURI: urn:ietf:params:scim:schemas:core:2.0:User:profileUrl
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2VyOnByb2ZpbGVVcmw
   mappedLocalClaimURI: http://wso2.org/claims/url
   properties:
-  - key: Description
-    value: Profile URL
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/url
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Profile URL
 dialectURI: urn:ietf:params:scim:schemas:core:2.0:User
 id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpVc2Vy
 link:

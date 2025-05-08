@@ -151,7 +151,18 @@ localAndOutBoundAuthenticationConfig:
   authenticationScriptConfig: null
   authenticationStepForAttributes: null
   authenticationStepForSubject: null
-  authenticationSteps: []
+  authenticationSteps:
+  - attributeStep: true
+    federatedIdentityProviders: []
+    localAuthenticatorConfigs:
+    - definedByType: SYSTEM
+      displayName: basicauth
+      enabled: true
+      name: BasicAuthenticator
+      properties: []
+      tags: null
+    stepOrder: 1
+    subjectStep: true
   authenticationType: default
   enableAuthorization: false
   skipConsent: true

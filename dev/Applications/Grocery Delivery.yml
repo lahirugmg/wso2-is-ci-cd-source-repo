@@ -2,7 +2,7 @@
 APIBasedAuthenticationEnabled: false
 accessUrl: null
 applicationEnabled: true
-applicationName: cicd-iamctl-app-staging
+applicationName: Grocery Delivery
 applicationVersion: v2.0.0
 associatedRolesConfig:
   allowedAudience: application
@@ -11,7 +11,16 @@ b2BSelfServiceApp: false
 certificateContent: null
 claimConfig:
   alwaysSendMappedLocalSubjectId: false
-  claimMappings: []
+  claimMappings:
+  - defaultValue: null
+    localClaim:
+      claimId: 0
+      claimUri: http://wso2.org/claims/username
+    mandatory: false
+    remoteClaim:
+      claimId: 0
+      claimUri: http://wso2.org/claims/username
+    requested: true
   idpClaims: []
   localClaimDialect: true
   mappedLocalSubjectMandatory: false
@@ -30,7 +39,7 @@ inboundAuthenticationConfig:
   inboundAuthenticationRequestConfigs:
   - data: null
     friendlyName: null
-    inboundAuthKey: NymemmHu31gbB6YknTh0fT6D0i8a
+    inboundAuthKey: KfFB0uJRoV9oMa2xlZNi7v_XNK0a
     inboundAuthType: oauth2
     inboundConfigType: standardAPP
     inboundConfigurationProtocol:
@@ -43,20 +52,20 @@ inboundAuthenticationConfig:
         federatedUser: false
         sharedUserId: null
         userAttributes: {}
-        userId: 3bed8b88-4034-4b71-a5f2-5ea3bee7e009
+        userId: 12cab9f1-d8b1-4076-913e-ffac147457bb
         userName: admin
         userResidentOrganization: null
         userSharedOrganizationId: null
         userStoreDomain: PRIMARY
       applicationAccessTokenExpiryTime: 3600
-      applicationName: cicd-iamctl-app-staging
+      applicationName: Grocery Delivery
       audiences: []
       backChannelLogoutUrl: null
-      bypassClientCredentials: false
-      callbackUrl: null
+      bypassClientCredentials: true
+      callbackUrl: http://grocerydelivery.com/
       fapiConformanceEnabled: false
       frontchannelLogoutUrl: null
-      grantTypes: client_credentials
+      grantTypes: authorization_code refresh_token
       hybridFlowEnabled: false
       hybridFlowResponseType: "null"
       idTokenEncryptionAlgorithm: "null"
@@ -64,13 +73,13 @@ inboundAuthenticationConfig:
       idTokenEncryptionMethod: "null"
       idTokenExpiryTime: 3600
       idTokenSignatureAlgorithm: null
-      oauthConsumerKey: NymemmHu31gbB6YknTh0fT6D0i8a
-      oauthConsumerSecret: bqC7Er1g0hT4GYqqHs_7Ownkkkk1j6p3tQiLZPxY6woa
+      oauthConsumerKey: KfFB0uJRoV9oMa2xlZNi7v_XNK0a
+      oauthConsumerSecret: TsYgRpwwFHpwr0HYcvb1pgfoOUc2Wz9Yl4jMeOYlf0Aa
       oauthVersion: OAuth-2.0
-      pkceMandatory: false
+      pkceMandatory: true
       pkceSupportPlain: false
       refreshTokenExpiryTime: 86400
-      renewRefreshTokenEnabled: null
+      renewRefreshTokenEnabled: "true"
       requestObjectEncryptionAlgorithm: null
       requestObjectEncryptionMethod: null
       requestObjectSignatureAlgorithm: null
@@ -84,11 +93,11 @@ inboundAuthenticationConfig:
       subjectType: public
       tlsClientAuthSubjectDN: null
       tlsClientCertificateBoundAccessTokens: false
-      tokenBindingType: null
+      tokenBindingType: sso-session
       tokenBindingValidationEnabled: false
       tokenEndpointAuthMethod: null
       tokenEndpointAuthSignatureAlgorithm: null
-      tokenRevocationWithIDPSessionTerminationEnabled: false
+      tokenRevocationWithIDPSessionTerminationEnabled: true
       tokenType: Default
       user:
         accessingOrganization: null
@@ -97,7 +106,7 @@ inboundAuthenticationConfig:
         federatedUser: false
         sharedUserId: null
         userAttributes: {}
-        userId: 3bed8b88-4034-4b71-a5f2-5ea3bee7e009
+        userId: 12cab9f1-d8b1-4076-913e-ffac147457bb
         userName: admin
         userResidentOrganization: null
         userSharedOrganizationId: null
@@ -114,22 +123,11 @@ localAndOutBoundAuthenticationConfig:
   authenticationScriptConfig: null
   authenticationStepForAttributes: null
   authenticationStepForSubject: null
-  authenticationSteps:
-  - attributeStep: true
-    federatedIdentityProviders: []
-    localAuthenticatorConfigs:
-    - definedByType: SYSTEM
-      displayName: basicauth
-      enabled: false
-      name: BasicAuthenticator
-      properties: []
-      tags: null
-    stepOrder: 1
-    subjectStep: true
+  authenticationSteps: []
   authenticationType: default
   enableAuthorization: false
-  skipConsent: false
-  skipLogoutConsent: false
+  skipConsent: true
+  skipLogoutConsent: true
   subjectClaimUri: null
   useExternalConsentPage: false
   useTenantDomainInLocalSubjectIdentifier: false
@@ -145,6 +143,6 @@ permissionAndRoleConfig:
   roleMappings: []
 requestPathAuthenticatorConfigs: []
 saasApp: false
-templateId: m2m-application
+templateId: 6a90e4b0-fbff-42d7-bfde-1efd98f07cd7
 templateVersion: ""
 trustedAppMetadata: null

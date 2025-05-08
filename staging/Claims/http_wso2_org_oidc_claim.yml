@@ -6,528 +6,248 @@ claims:
   id: Z2VuZGVy
   mappedLocalClaimURI: http://wso2.org/claims/gender
   properties:
-  - key: ReadOnly
-    value: "true"
-  - key: Description
-    value: End-User's gender. Values defined by this specification are female and
-      male. Other values MAY be used when neither of the defined values are applicable.
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/gender
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Gender
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: email_verified
   id: ZW1haWxfdmVyaWZpZWQ
   mappedLocalClaimURI: http://wso2.org/claims/identity/emailVerified
   properties:
-  - key: Description
-    value: 'True if the End-User''s e-mail address has been verified; otherwise false. '
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/identity/emailVerified
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Email Verified
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: zoneinfo
   id: em9uZWluZm8
   mappedLocalClaimURI: http://wso2.org/claims/timeZone
   properties:
-  - key: Description
-    value: String from zoneinfo time zone database representing the End-User's time
-      zone. For example, Europe/Paris or America/Los_Angeles.
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/timeZone
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Zone Info
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: picture
   id: cGljdHVyZQ
   mappedLocalClaimURI: http://wso2.org/claims/photourl
   properties:
-  - key: Description
-    value: URL of the End-User's profile picture. This URL MUST refer to an image
-      file (for example, a PNG, JPEG, or GIF image file)
-  - key: DisplayOrder
-    value: "9"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/photourl
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Picture
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: preferred_username
   id: cHJlZmVycmVkX3VzZXJuYW1l
   mappedLocalClaimURI: http://wso2.org/claims/displayName
   properties:
-  - key: Description
-    value: Shorthand name by which the End-User wishes to be referred to at the RP,
-      such as janedoe or j.doe.
-  - key: DisplayOrder
-    value: "7"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/displayName
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Preferred Username
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: middle_name
   id: bWlkZGxlX25hbWU
   mappedLocalClaimURI: http://wso2.org/claims/middleName
   properties:
-  - key: Description
-    value: Middle name(s) of the End-User. Note that in some cultures, people can
-      have multiple middle names; all can be present, with the names being separated
-      by space characters. Also note that in some cultures, middle names are not used.
-  - key: DisplayOrder
-    value: "5"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/middleName
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Middle Name
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: nickname
   id: bmlja25hbWU
   mappedLocalClaimURI: http://wso2.org/claims/nickname
   properties:
-  - key: Description
-    value: Casual name of the End-User that may or may not be the same as the given_name.
-      For instance, a nickname value of Mike might be returned alongside a given_name
-      value of Michael.
-  - key: DisplayOrder
-    value: "6"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/nickname
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Nickname
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: userid
   id: dXNlcmlk
   mappedLocalClaimURI: http://wso2.org/claims/userid
   properties:
-  - key: Description
-    value: User Id
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/userid
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: user Id
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: profile
   id: cHJvZmlsZQ
   mappedLocalClaimURI: http://wso2.org/claims/url
   properties:
-  - key: Description
-    value: URL of the End-User's profile page. The contents of this Web page SHOULD
-      be about the End-User.
-  - key: DisplayOrder
-    value: "8"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/url
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Profile
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: phone_number_verified
   id: cGhvbmVfbnVtYmVyX3ZlcmlmaWVk
   mappedLocalClaimURI: http://wso2.org/claims/identity/phoneVerified
   properties:
-  - key: Description
-    value: True if the End-User's phone number has been verified; otherwise false.
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/identity/phoneVerified
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Phone Number Verified
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: roles
   id: cm9sZXM
   mappedLocalClaimURI: http://wso2.org/claims/roles
   properties:
-  - key: Description
-    value: List of role names that have been assigned to the principal. This typically
-      will require a mapping at the application container level to application deployment
-      roles.
-  - key: DisplayOrder
-    value: "13"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/roles
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: User Roles
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: postal_code
   id: cG9zdGFsX2NvZGU
   mappedLocalClaimURI: http://wso2.org/claims/postalcode
   properties:
-  - key: Description
-    value: Zip code or postal code component.
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/postalcode
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Postal Code
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: groups
   id: Z3JvdXBz
   mappedLocalClaimURI: http://wso2.org/claims/groups
   properties:
-  - key: Description
-    value: List of group names that have been assigned to the principal. This typically
-      will require a mapping at the application container level to application deployment
-      roles.
-  - key: DisplayOrder
-    value: "12"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/groups
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: User Groups
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: address
   id: YWRkcmVzcw
   mappedLocalClaimURI: http://wso2.org/claims/addresses
   properties:
-  - key: Description
-    value: 'True if the End-User''s phone number has been verified; otherwise false. '
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/addresses
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Address
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: country
   id: Y291bnRyeQ
   mappedLocalClaimURI: http://wso2.org/claims/country
   properties:
-  - key: Description
-    value: Country name component
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/country
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Country
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: preferredMFAOption
   id: cHJlZmVycmVkTUZBT3B0aW9u
   mappedLocalClaimURI: http://wso2.org/claims/identity/preferredMFAOption
   properties:
-  - key: Description
-    value: Preferred MFA option
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/identity/preferredMFAOption
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: PreferredMFAOption
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: formatted
   id: Zm9ybWF0dGVk
   mappedLocalClaimURI: http://wso2.org/claims/addresses.formatted
   properties:
-  - key: Description
-    value: Full mailing address, formatted for display or use on a mailing label.
-      This field MAY contain multiple lines, separated by newlines.
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/addresses.formatted
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Address Formatted
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: email
   id: ZW1haWw
   mappedLocalClaimURI: http://wso2.org/claims/emailaddress
   properties:
-  - key: Description
-    value: End-User's preferred e-mail address.
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/emailaddress
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Email
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: upn
   id: dXBu
   mappedLocalClaimURI: http://wso2.org/claims/userprincipal
   properties:
-  - key: Description
-    value: The user principal name
-  - key: DisplayOrder
-    value: "11"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/userprincipal
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: User Principal
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: given_name
   id: Z2l2ZW5fbmFtZQ
   mappedLocalClaimURI: http://wso2.org/claims/givenname
   properties:
-  - key: Description
-    value: Given name(s) or first name(s) of the End-User. Note that in some cultures,
-      people can have multiple given names; all can be present, with the names being
-      separated by space characters.
-  - key: DisplayOrder
-    value: "3"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/givenname
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Given Name
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: locality
   id: bG9jYWxpdHk
   mappedLocalClaimURI: http://wso2.org/claims/locality
   properties:
-  - key: Description
-    value: City or locality component.
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/locality
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Locality
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: region
   id: cmVnaW9u
   mappedLocalClaimURI: http://wso2.org/claims/region
   properties:
-  - key: Description
-    value: State, province, prefecture, or region component.
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/region
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: One Time Password
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: family_name
   id: ZmFtaWx5X25hbWU
   mappedLocalClaimURI: http://wso2.org/claims/lastname
   properties:
-  - key: Description
-    value: Surname(s) or last name(s) of the End-User. Note that in some cultures,
-      people can have multiple family names or no family name; all can be present,
-      with the names being separated by space characters.
-  - key: DisplayOrder
-    value: "4"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/lastname
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Surname
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: name
   id: bmFtZQ
   mappedLocalClaimURI: http://wso2.org/claims/fullname
   properties:
-  - key: Description
-    value: End-User's full name in displayable form including all name parts, possibly
-      including titles and suffixes, ordered according to the End-User's locale and
-      preferences
-  - key: DisplayOrder
-    value: "2"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/fullname
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Full Name
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: locale
   id: bG9jYWxl
   mappedLocalClaimURI: http://wso2.org/claims/local
   properties:
-  - key: Description
-    value: End-User's locale, For example, en-US or fr-CA, en_US
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/local
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Locale
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: street_address
   id: c3RyZWV0X2FkZHJlc3M
   mappedLocalClaimURI: http://wso2.org/claims/streetaddress
   properties:
-  - key: Description
-    value: Full street address component, which MAY include house number, street name,
-      Post Office Box, and multi-line extended street address information.
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/streetaddress
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Street Address
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: website
   id: d2Vic2l0ZQ
   mappedLocalClaimURI: http://wso2.org/claims/websiteurl
   properties:
-  - key: Description
-    value: URL of the End-User's Web page or blog. This Web page SHOULD contain information
-      published by the End-User or an organization that the End-User is affiliated
-      with.
-  - key: DisplayOrder
-    value: "10"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/websiteurl
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Website URL
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: phone_number
   id: cGhvbmVfbnVtYmVy
   mappedLocalClaimURI: http://wso2.org/claims/telephone
   properties:
-  - key: Description
-    value: End-User's preferred telephone number. For example, +1 (425) 555-1212 or
-      +56 (2) 687 2400., +1 (604) 555-1234;ext=5678.
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/telephone
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Phone Number
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: username
   id: dXNlcm5hbWU
   mappedLocalClaimURI: http://wso2.org/claims/username
   properties:
-  - key: Description
-    value: Username of the End-User
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/username
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Username
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: birthdate
   id: YmlydGhkYXRl
   mappedLocalClaimURI: http://wso2.org/claims/dob
   properties:
-  - key: Description
-    value: End-User's birthday, represented as an ISO 8601:2004 [ISO8601-2004] YYYY-MM-DD
-      format. The year MAY be 0000, indicating that it is omitted. To represent only
-      the year, YYYY format is allowed.
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/dob
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Birth Date
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: http://wso2.org/oidc/claim
   claimURI: updated_at
   id: dXBkYXRlZF9hdA
   mappedLocalClaimURI: http://wso2.org/claims/modified
   properties:
-  - key: Description
-    value: Time the End-User's information was last updated. Its value is a JSON number
-      representing the number of seconds from 1970-01-01T0:0:0Z as measured in UTC
-      until the date/time.
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/modified
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Updated At
 dialectURI: http://wso2.org/oidc/claim
 id: aHR0cDovL3dzbzIub3JnL29pZGMvY2xhaW0
 link:

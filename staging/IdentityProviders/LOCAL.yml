@@ -534,7 +534,7 @@ idpProperties:
 - displayName: Resend Notification Max Attempts
   name: PUSH.ResendNotificationMaxAttempts
   value: "3"
-- displayName: Include uppercase characters in OTP
+- displayName: null
   name: Recovery.Notification.Password.OTP.UseUppercaseCharactersInOTP
   value: "true"
 - displayName: Manage notifications sending internally
@@ -612,7 +612,7 @@ idpProperties:
 - displayName: Enable password reset via recovery e-mail
   name: Recovery.AdminPasswordReset.RecoveryLink
   value: "false"
-- displayName: Include lowercase characters in OTP
+- displayName: null
   name: Recovery.Notification.Password.OTP.UseLowercaseCharactersInOTP
   value: "true"
 - displayName: Onboard admin to organization (root)
@@ -705,7 +705,7 @@ idpProperties:
 - displayName: Initial account lock duration
   name: account.lock.handler.Time
   value: "5"
-- displayName: Include numbers in OTP
+- displayName: null
   name: Recovery.Notification.Password.OTP.UseNumbersInOTP
   value: "true"
 - displayName: Enable Account Confirmation On Creation
@@ -738,7 +738,7 @@ idpProperties:
 - displayName: Street Address
   name: streetAddress
   value: change-me
-- displayName: Include lowercase characters in OTP
+- displayName: null
   name: LiteRegistration.OTP.UseLowercaseCharactersInOTP
   value: "true"
 - displayName: Send OTP in e-mail
@@ -795,7 +795,7 @@ idpProperties:
 - displayName: Enable passkey progressive enrollment
   name: FIDO.EnablePasskeyProgressiveEnrollment
   value: "false"
-- displayName: Include uppercase characters in OTP
+- displayName: null
   name: LiteRegistration.OTP.UseUppercaseCharactersInOTP
   value: "true"
 - displayName: Include numbers in OTP
@@ -831,7 +831,7 @@ idpProperties:
 - displayName: Country
   name: addressCountry
   value: change-me
-- displayName: Include lowercase characters in OTP
+- displayName: null
   name: SelfRegistration.OTP.UseLowercaseCharactersInOTP
   value: "true"
 - displayName: Enable organization self service
@@ -921,7 +921,7 @@ idpProperties:
 - displayName: Username recovery
   name: Recovery.Notification.Username.Enable
   value: "false"
-- displayName: Include numbers in OTP
+- displayName: null
   name: SelfRegistration.OTP.UseNumbersInOTP
   value: "true"
 - displayName: Enable user email verification
@@ -951,7 +951,7 @@ idpProperties:
 - displayName: Max failed attempts for reCaptcha
   name: Recovery.Question.Password.ReCaptcha.MaxFailedAttempts
   value: "2"
-- displayName: Include numbers in OTP
+- displayName: null
   name: LiteRegistration.OTP.UseNumbersInOTP
   value: "true"
 - displayName: Manage Self-Sign-Up purposes
@@ -972,7 +972,7 @@ idpProperties:
 - displayName: Email OTP token length
   name: EmailOTP.OTPLength
   value: "6"
-- displayName: Include uppercase characters in OTP
+- displayName: null
   name: SelfRegistration.OTP.UseUppercaseCharactersInOTP
   value: "true"
 - displayName: null
@@ -1015,40 +1015,12 @@ provisioningConnectorConfigs:
     displayName: null
     displayOrder: 0
     groupId: 0
-    name: scimUserEndpoint
-    options: []
-    regex: null
-    required: false
-    subProperties: []
-    type: null
-    value: https://localhost:9444/wso2/scim/Users
-  - advanced: false
-    confidential: false
-    defaultValue: null
-    description: null
-    displayName: null
-    displayOrder: 0
-    groupId: 0
-    name: scimGroupEndpoint
-    options: []
-    regex: null
-    required: false
-    subProperties: []
-    type: null
-    value: https://localhost:9444/wso2/scim/Groups
-  - advanced: false
-    confidential: false
-    defaultValue: null
-    description: null
-    displayName: null
-    displayOrder: 0
-    groupId: 0
     name: scim2UserEndpoint
     options: []
     regex: null
     required: false
     subProperties: []
-    type: null
+    type: STRING
     value: https://localhost:9444/scim2/Users
   - advanced: false
     confidential: false
@@ -1062,8 +1034,36 @@ provisioningConnectorConfigs:
     regex: null
     required: false
     subProperties: []
-    type: null
+    type: STRING
     value: https://localhost:9444/scim2/Groups
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: scimUserEndpoint
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: STRING
+    value: https://localhost:9444/wso2/scim/Users
+  - advanced: false
+    confidential: false
+    defaultValue: null
+    description: null
+    displayName: null
+    displayOrder: 0
+    groupId: 0
+    name: scimGroupEndpoint
+    options: []
+    regex: null
+    required: false
+    subProperties: []
+    type: STRING
+    value: https://localhost:9444/wso2/scim/Groups
   rulesEnabled: false
 provisioningRole: null
 templateId: null

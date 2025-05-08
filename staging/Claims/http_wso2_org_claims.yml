@@ -24,14 +24,14 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
-  - mappedAttribute: backupCodeEnabled
+  - mappedAttribute: addresses
     userstore: PRIMARY
-  claimURI: http://wso2.org/claims/identity/backupCodeEnabled
-  description: Claim to represent whether user has configured Backup Code authenticator
+  claimURI: http://wso2.org/claims/addresses
+  description: Address
   dialectURI: http://wso2.org/claims
-  displayName: Backup Code Enabled
+  displayName: Address
   displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9pZGVudGl0eS9iYWNrdXBDb2RlRW5hYmxlZA
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9hZGRyZXNzZXM
   profiles: {}
   properties:
   - key: isSystemClaim
@@ -44,14 +44,14 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
-  - mappedAttribute: addresses
+  - mappedAttribute: backupCodeEnabled
     userstore: PRIMARY
-  claimURI: http://wso2.org/claims/addresses
-  description: Address
+  claimURI: http://wso2.org/claims/identity/backupCodeEnabled
+  description: Claim to represent whether user has configured Backup Code authenticator
   dialectURI: http://wso2.org/claims
-  displayName: Address
+  displayName: Backup Code Enabled
   displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9hZGRyZXNzZXM
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9pZGVudGl0eS9iYWNrdXBDb2RlRW5hYmxlZA
   profiles: {}
   properties:
   - key: isSystemClaim
@@ -186,14 +186,14 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
-  - mappedAttribute: thumbnail
+  - mappedAttribute: postalcode
     userstore: PRIMARY
-  claimURI: http://wso2.org/claims/thumbnail
-  description: Photo - Thumbnail
+  claimURI: http://wso2.org/claims/postalcode
+  description: Postal Code
   dialectURI: http://wso2.org/claims
-  displayName: Photo - Thumbnail
+  displayName: Postal Code
   displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy90aHVtYm5haWw
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9wb3N0YWxjb2Rl
   profiles: {}
   properties:
   - key: isSystemClaim
@@ -206,14 +206,14 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
-  - mappedAttribute: postalcode
+  - mappedAttribute: thumbnail
     userstore: PRIMARY
-  claimURI: http://wso2.org/claims/postalcode
-  description: Postal Code
+  claimURI: http://wso2.org/claims/thumbnail
+  description: Photo - Thumbnail
   dialectURI: http://wso2.org/claims
-  displayName: Postal Code
+  displayName: Photo - Thumbnail
   displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9wb3N0YWxjb2Rl
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy90aHVtYm5haWw
   profiles: {}
   properties:
   - key: isSystemClaim
@@ -246,26 +246,6 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
-  - mappedAttribute: meta.version
-    userstore: PRIMARY
-  claimURI: http://wso2.org/claims/metadata.version
-  description: User Account Metadata - Version
-  dialectURI: http://wso2.org/claims
-  displayName: User Metadata - Version
-  displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9tZXRhZGF0YS52ZXJzaW9u
-  profiles: {}
-  properties:
-  - key: isSystemClaim
-    value: "true"
-  readOnly: true
-  regEx: ""
-  required: false
-  sharedProfileValueResolvingMethod: FromSharedProfile
-  supportedByDefault: false
-  uniquenessScope: null
-- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
-  attributeMapping:
   - mappedAttribute: localityAddress
     userstore: PRIMARY
   claimURI: http://wso2.org/claims/locality
@@ -282,6 +262,26 @@ claims:
   regEx: ""
   required: false
   sharedProfileValueResolvingMethod: FromOrigin
+  supportedByDefault: false
+  uniquenessScope: null
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
+  attributeMapping:
+  - mappedAttribute: meta.version
+    userstore: PRIMARY
+  claimURI: http://wso2.org/claims/metadata.version
+  description: User Account Metadata - Version
+  dialectURI: http://wso2.org/claims
+  displayName: User Metadata - Version
+  displayOrder: 0
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9tZXRhZGF0YS52ZXJzaW9u
+  profiles: {}
+  properties:
+  - key: isSystemClaim
+    value: "true"
+  readOnly: true
+  regEx: ""
+  required: false
+  sharedProfileValueResolvingMethod: FromSharedProfile
   supportedByDefault: false
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
@@ -346,26 +346,6 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
-  - mappedAttribute: externalId
-    userstore: PRIMARY
-  claimURI: http://wso2.org/claims/externalid
-  description: Unique ID of the user used in external systems
-  dialectURI: http://wso2.org/claims
-  displayName: External User ID
-  displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9leHRlcm5hbGlk
-  profiles: {}
-  properties:
-  - key: isSystemClaim
-    value: "true"
-  readOnly: true
-  regEx: ""
-  required: false
-  sharedProfileValueResolvingMethod: FromOrigin
-  supportedByDefault: false
-  uniquenessScope: null
-- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
-  attributeMapping:
   - mappedAttribute: photoUrl
     userstore: PRIMARY
   claimURI: http://wso2.org/claims/photourl
@@ -379,6 +359,26 @@ claims:
   - key: isSystemClaim
     value: "true"
   readOnly: false
+  regEx: ""
+  required: false
+  sharedProfileValueResolvingMethod: FromOrigin
+  supportedByDefault: false
+  uniquenessScope: null
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
+  attributeMapping:
+  - mappedAttribute: externalId
+    userstore: PRIMARY
+  claimURI: http://wso2.org/claims/externalid
+  description: Unique ID of the user used in external systems
+  dialectURI: http://wso2.org/claims
+  displayName: External User ID
+  displayOrder: 0
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9leHRlcm5hbGlk
+  profiles: {}
+  properties:
+  - key: isSystemClaim
+    value: "true"
+  readOnly: true
   regEx: ""
   required: false
   sharedProfileValueResolvingMethod: FromOrigin
@@ -586,26 +586,6 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
-  - mappedAttribute: lastPasswordUpdate
-    userstore: PRIMARY
-  claimURI: http://wso2.org/claims/identity/lastPasswordUpdateTime
-  description: Last Password Update Time
-  dialectURI: http://wso2.org/claims
-  displayName: Last Password Update
-  displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9pZGVudGl0eS9sYXN0UGFzc3dvcmRVcGRhdGVUaW1l
-  profiles: {}
-  properties:
-  - key: isSystemClaim
-    value: "true"
-  readOnly: false
-  regEx: ""
-  required: false
-  sharedProfileValueResolvingMethod: FromOrigin
-  supportedByDefault: false
-  uniquenessScope: null
-- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
-  attributeMapping:
   - mappedAttribute: telephoneNumber
     userstore: PRIMARY
   claimURI: http://wso2.org/claims/telephone
@@ -620,6 +600,26 @@ claims:
     value: "true"
   readOnly: false
   regEx: '^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{2,3})[-. )]*(\d{3})[-. ]*(\d{4,6})(?: *x(\d+))?\s*$'
+  required: false
+  sharedProfileValueResolvingMethod: FromOrigin
+  supportedByDefault: false
+  uniquenessScope: null
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
+  attributeMapping:
+  - mappedAttribute: lastPasswordUpdate
+    userstore: PRIMARY
+  claimURI: http://wso2.org/claims/identity/lastPasswordUpdateTime
+  description: Last Password Update Time
+  dialectURI: http://wso2.org/claims
+  displayName: Last Password Update
+  displayOrder: 0
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9pZGVudGl0eS9sYXN0UGFzc3dvcmRVcGRhdGVUaW1l
+  profiles: {}
+  properties:
+  - key: isSystemClaim
+    value: "true"
+  readOnly: false
+  regEx: ""
   required: false
   sharedProfileValueResolvingMethod: FromOrigin
   supportedByDefault: false
@@ -846,14 +846,14 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
-  - mappedAttribute: emailOTPDisabled
+  - mappedAttribute: websiteUrl
     userstore: PRIMARY
-  claimURI: http://wso2.org/claims/identity/emailotp_disabled
-  description: Claim to disable EmailOTP
+  claimURI: http://wso2.org/claims/websiteurl
+  description: Website URL
   dialectURI: http://wso2.org/claims
-  displayName: Disable EmailOTP
+  displayName: Website URL
   displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9pZGVudGl0eS9lbWFpbG90cF9kaXNhYmxlZA
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy93ZWJzaXRldXJs
   profiles: {}
   properties:
   - key: isSystemClaim
@@ -866,14 +866,14 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
-  - mappedAttribute: websiteUrl
+  - mappedAttribute: emailOTPDisabled
     userstore: PRIMARY
-  claimURI: http://wso2.org/claims/websiteurl
-  description: Website URL
+  claimURI: http://wso2.org/claims/identity/emailotp_disabled
+  description: Claim to disable EmailOTP
   dialectURI: http://wso2.org/claims
-  displayName: Website URL
+  displayName: Disable EmailOTP
   displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy93ZWJzaXRldXJs
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9pZGVudGl0eS9lbWFpbG90cF9kaXNhYmxlZA
   profiles: {}
   properties:
   - key: isSystemClaim
@@ -1733,14 +1733,14 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
-  - mappedAttribute: askPassword
+  - mappedAttribute: middleName
     userstore: PRIMARY
-  claimURI: http://wso2.org/claims/identity/askPassword
-  description: Temporary claim to invoke email ask Password feature
+  claimURI: http://wso2.org/claims/middleName
+  description: Middle Name
   dialectURI: http://wso2.org/claims
-  displayName: Ask Password
+  displayName: Middle Name
   displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9pZGVudGl0eS9hc2tQYXNzd29yZA
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9taWRkbGVOYW1l
   profiles: {}
   properties:
   - key: isSystemClaim
@@ -1753,14 +1753,14 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
-  - mappedAttribute: middleName
+  - mappedAttribute: askPassword
     userstore: PRIMARY
-  claimURI: http://wso2.org/claims/middleName
-  description: Middle Name
+  claimURI: http://wso2.org/claims/identity/askPassword
+  description: Temporary claim to invoke email ask Password feature
   dialectURI: http://wso2.org/claims
-  displayName: Middle Name
+  displayName: Ask Password
   displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9taWRkbGVOYW1l
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9pZGVudGl0eS9hc2tQYXNzd29yZA
   profiles: {}
   properties:
   - key: isSystemClaim
@@ -1873,6 +1873,26 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
+  - mappedAttribute: gender
+    userstore: PRIMARY
+  claimURI: http://wso2.org/claims/gender
+  description: Gender
+  dialectURI: http://wso2.org/claims
+  displayName: Gender
+  displayOrder: 0
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9nZW5kZXI
+  profiles: {}
+  properties:
+  - key: isSystemClaim
+    value: "true"
+  readOnly: false
+  regEx: ""
+  required: false
+  sharedProfileValueResolvingMethod: FromOrigin
+  supportedByDefault: false
+  uniquenessScope: null
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
+  attributeMapping:
   - mappedAttribute: failedLoginAttemptsBeforeSuccess
     userstore: PRIMARY
   claimURI: http://wso2.org/claims/identity/failedLoginAttemptsBeforeSuccess
@@ -1933,26 +1953,6 @@ claims:
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
-  - mappedAttribute: gender
-    userstore: PRIMARY
-  claimURI: http://wso2.org/claims/gender
-  description: Gender
-  dialectURI: http://wso2.org/claims
-  displayName: Gender
-  displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9nZW5kZXI
-  profiles: {}
-  properties:
-  - key: isSystemClaim
-    value: "true"
-  readOnly: false
-  regEx: ""
-  required: false
-  sharedProfileValueResolvingMethod: FromOrigin
-  supportedByDefault: false
-  uniquenessScope: null
-- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
-  attributeMapping:
   - mappedAttribute: verifiedEmailAddresses
     userstore: PRIMARY
   claimURI: http://wso2.org/claims/verifiedEmailAddresses
@@ -1972,6 +1972,26 @@ claims:
   required: false
   sharedProfileValueResolvingMethod: FromOrigin
   supportedByDefault: true
+  uniquenessScope: null
+- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
+  attributeMapping:
+  - mappedAttribute: timeZone
+    userstore: PRIMARY
+  claimURI: http://wso2.org/claims/timeZone
+  description: Time Zone
+  dialectURI: http://wso2.org/claims
+  displayName: Time Zone
+  displayOrder: 0
+  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy90aW1lWm9uZQ
+  profiles: {}
+  properties:
+  - key: isSystemClaim
+    value: "true"
+  readOnly: false
+  regEx: ""
+  required: false
+  sharedProfileValueResolvingMethod: FromOrigin
+  supportedByDefault: false
   uniquenessScope: null
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
   attributeMapping:
@@ -2003,26 +2023,6 @@ claims:
   displayName: Name - Honoric Prefix
   displayOrder: 0
   id: aHR0cDovL3dzbzIub3JnL2NsYWltcy9ob25vcmlmaWNQcmVmaXg
-  profiles: {}
-  properties:
-  - key: isSystemClaim
-    value: "true"
-  readOnly: false
-  regEx: ""
-  required: false
-  sharedProfileValueResolvingMethod: FromOrigin
-  supportedByDefault: false
-  uniquenessScope: null
-- !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.LocalClaimResDTO
-  attributeMapping:
-  - mappedAttribute: timeZone
-    userstore: PRIMARY
-  claimURI: http://wso2.org/claims/timeZone
-  description: Time Zone
-  dialectURI: http://wso2.org/claims
-  displayName: Time Zone
-  displayOrder: 0
-  id: aHR0cDovL3dzbzIub3JnL2NsYWltcy90aW1lWm9uZQ
   profiles: {}
   properties:
   - key: isSystemClaim

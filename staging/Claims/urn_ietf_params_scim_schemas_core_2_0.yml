@@ -6,140 +6,56 @@ claims:
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDpleHRlcm5hbElk
   mappedLocalClaimURI: http://wso2.org/claims/externalid
   properties:
-  - key: Description
-    value: External Id
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/externalid
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: External Id
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0
   claimURI: urn:ietf:params:scim:schemas:core:2.0:meta.resourceType
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDptZXRhLnJlc291cmNlVHlwZQ
   mappedLocalClaimURI: http://wso2.org/claims/resourceType
   properties:
-  - key: Description
-    value: Meta - Location
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/resourceType
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Meta - Location
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0
   claimURI: urn:ietf:params:scim:schemas:core:2.0:meta.location
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDptZXRhLmxvY2F0aW9u
   mappedLocalClaimURI: http://wso2.org/claims/location
   properties:
-  - key: Description
-    value: Meta - Location
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/location
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Meta - Location
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0
   claimURI: urn:ietf:params:scim:schemas:core:2.0:meta.lastModified
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDptZXRhLmxhc3RNb2RpZmllZA
   mappedLocalClaimURI: http://wso2.org/claims/modified
   properties:
-  - key: Description
-    value: Meta - Last Modified
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/modified
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Meta - Last Modified
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0
   claimURI: urn:ietf:params:scim:schemas:core:2.0:meta.version
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDptZXRhLnZlcnNpb24
   mappedLocalClaimURI: http://wso2.org/claims/metadata.version
   properties:
-  - key: Description
-    value: Meta - Version
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/metadata.version
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Meta - Version
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0
   claimURI: urn:ietf:params:scim:schemas:core:2.0:meta.created
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDptZXRhLmNyZWF0ZWQ
   mappedLocalClaimURI: http://wso2.org/claims/created
   properties:
-  - key: Description
-    value: Meta - Created
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/created
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Meta - Created
 - !!org.wso2.carbon.identity.rest.api.server.claim.management.v1.dto.ExternalClaimResDTO
   claimDialectURI: urn:ietf:params:scim:schemas:core:2.0
   claimURI: urn:ietf:params:scim:schemas:core:2.0:id
   id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMDppZA
   mappedLocalClaimURI: http://wso2.org/claims/userid
   properties:
-  - key: Description
-    value: Id
-  - key: DisplayOrder
-    value: "1"
-  - key: Required
-    value: "true"
-  - key: SupportedByDefault
-    value: "true"
-  - key: MappedLocalClaim
-    value: http://wso2.org/claims/userid
   - key: isSystemClaim
     value: "true"
-  - key: DisplayName
-    value: Id
 dialectURI: urn:ietf:params:scim:schemas:core:2.0
 id: dXJuOmlldGY6cGFyYW1zOnNjaW06c2NoZW1hczpjb3JlOjIuMA
 link:
